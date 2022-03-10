@@ -1,0 +1,31 @@
+
+<script src="./index.js" type="module"></script>
+
+<title>The Magic Browser Support Ball</title>
+
+<style>
+  body {    
+    text-align: center;
+  }
+  #answer {
+    background: #222;
+    color: #eee;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    margin: 0 auto;
+  }
+</style>
+
+<h1>The Magic Browser Support Ball</h1>
+
+<form id="magic">
+<input name="question"></input>
+<button>Shake</button>
+</form>
+
+<p id="question" style="visibility:hidden">Can I use <code id="feature"></code>?</p>
+<p id="answer"></p>
